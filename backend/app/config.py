@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    ALLOWED_ORIGINS: list[str]
+    ALLOWED_ORIGINS: str
     SECRET_KEY: str
     
 

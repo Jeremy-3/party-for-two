@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    ALLOWED_ORIGINS: list[str] = ["http://localhost:8080"]
+    ALLOWED_ORIGINS: list[str]
     SECRET_KEY: str
     
 
